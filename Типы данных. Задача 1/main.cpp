@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -8,72 +8,72 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");
 #if defined ZADACHA1
-	cout << "\t\t\t\t\tÇàäà÷à 1\n";
-	cout << "\t\t\t\tÏðåîáðàçîâàíèå ÷èñëà â äåíåæíûé ôîðìàò\n" << endl;
+	cout << "\t\t\t\t\tÐ—Ð°Ð´Ð°Ñ‡Ð° 1\n";
+	cout << "\t\t\t\tÐŸÑ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð² Ð´ÐµÐ½ÐµÐ¶Ð½Ñ‹Ð¹ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚\n" << endl;
 	double fractional_number, kop;
 	int grn;
-	cout << "Ââåäèòå äðîáíîå ÷èñëî\n" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ñ€Ð¾Ð±Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾\n" << endl;
 	cin >> fractional_number;
-	cout << fractional_number << " ãðí. - ýòî" << endl;
+	cout << fractional_number << " Ð³Ñ€Ð½. - ÑÑ‚Ð¾" << endl;
     grn = fractional_number;
 	kop = (fractional_number - grn)*100;
-	cout << grn << " ãðèâíû " << endl;
-	cout << kop << " êîïååê " << endl;
+	cout << grn << " Ð³Ñ€Ð¸Ð²Ð½Ñ‹ " << endl;
+	cout << kop << " ÐºÐ¾Ð¿ÐµÐµÐº " << endl;
 	cout << "---------------------------\n";
 #endif
 	
 #if defined ZADACHA2
-	cout << "\t\t\t\t\tÇàäà÷à 2\n" << endl;
-	cout << "\t\t\t\tÂû÷èñëåíèå ñòîèìîñòè ïîêóïêè.\n" << endl;
-	cout << "Ââåäèòå èñõîäíûå äàííûå:\n";
+	cout << "\t\t\t\t\tÐ—Ð°Ð´Ð°Ñ‡Ð° 2\n" << endl;
+	cout << "\t\t\t\tÐ’Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸.\n" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸ÑÑ…Ð¾Ð´Ð½Ñ‹Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ:\n";
 	double book_price, pencil_price, final_price;
 	int quantity_book, quantity_pencil;
-	cout << "Öåíà òåòðàäè (ãðí.)\n";
+	cout << "Ð¦ÐµÐ½Ð° Ñ‚ÐµÑ‚Ñ€Ð°Ð´Ð¸ (Ð³Ñ€Ð½.)\n";
 	cin >> book_price;
-	cout << "Êîëè÷åñòâî òåòðàäåé\n";
+	cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‚ÐµÑ‚Ñ€Ð°Ð´ÐµÐ¹\n";
 	cin >> quantity_book;
-	cout << "Öåíà êàðàíäàøà\n";
+	cout << "Ð¦ÐµÐ½Ð° ÐºÐ°Ñ€Ð°Ð½Ð´Ð°ÑˆÐ°\n";
 	cin >> pencil_price;
-	cout << "Êîëè÷åñòâî êàðàíäàøåé\n";
+	cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÐ°Ñ€Ð°Ð½Ð´Ð°ÑˆÐµÐ¹\n";
 	cin >> quantity_pencil;
 	final_price = (book_price * quantity_book) + (pencil_price * quantity_pencil);
-	cout << "Ñòîèìîñòü ïîêóïêè\n" << final_price << "ãðí." << endl;
+	cout << "Ð¡Ñ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸\n" << final_price << "Ð³Ñ€Ð½." << endl;
 	cout << "---------------------------\n";
 #endif
 	
 #if defined ZADACHA3
-	cout << "\t\t\t\t\tÇàäà÷à3\n"<<endl;
-	cout << "\t\t\t\tÂû÷èñëåíèå ñòîèìîñòè ïîêóïêè.\n"<<endl;
-	cout << "Ââåäèòå èñõîäíûå äàííûå:\n"<<endl;
+	cout << "\t\t\t\t\tÐ—Ð°Ð´Ð°Ñ‡Ð°3\n"<<endl;
+	cout << "\t\t\t\tÐ’Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸.\n"<<endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸ÑÑ…Ð¾Ð´Ð½Ñ‹Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ:\n"<<endl;
 	double Price_book, Cover_price, Final_price;
 	int Number_of_sets;
-	cout << "Öåíà òåòðàäè (ãðí.)\n";
+	cout << "Ð¦ÐµÐ½Ð° Ñ‚ÐµÑ‚Ñ€Ð°Ð´Ð¸ (Ð³Ñ€Ð½.)\n";
 	cin >> Price_book;
-	cout << "Öåíà îáëîæêè (ãðí.)\n";
+	cout << "Ð¦ÐµÐ½Ð° Ð¾Ð±Ð»Ð¾Ð¶ÐºÐ¸ (Ð³Ñ€Ð½.)\n";
 	cin >> Cover_price;
-	cout << "Êîëè÷åñòâî êîìïëåêòîâ (øò.)\n";
+	cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑ‚Ð¾Ð² (ÑˆÑ‚.)\n";
 	cin >> Number_of_sets;
 	Final_price = (Price_book + Cover_price) * Number_of_sets;
-	cout << "Ñòîèìîñòü ïîêóïêè:\n" << Final_price << " ãðí." << endl;
+	cout << "Ð¡Ñ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸:\n" << Final_price << " Ð³Ñ€Ð½." << endl;
 	cout << "---------------------------\n";
 #endif
 	
 #if defined ZADACHA4
-	cout << "\t\t\t\t\tÇàäà÷à4\n"<<endl;
-	cout << "\t\t\t\tÂû÷èñëåíèå ñòîèìîñòè ïîåçäêè íà àâòîìîáèëè íà äà÷ó (Òóäà è îáðàòíî)\n" << endl;
-	cout << "Èñõîäíûå äàííûå:\n" << endl;
+	cout << "\t\t\t\t\tÐ—Ð°Ð´Ð°Ñ‡Ð°4\n"<<endl;
+	cout << "\t\t\t\tÐ’Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ Ð¿Ð¾ÐµÐ·Ð´ÐºÐ¸ Ð½Ð° Ð°Ð²Ñ‚Ð¾Ð¼Ð¾Ð±Ð¸Ð»Ð¸ Ð½Ð° Ð´Ð°Ñ‡Ñƒ (Ð¢ÑƒÐ´Ð° Ð¸ Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾)\n" << endl;
+	cout << "Ð˜ÑÑ…Ð¾Ð´Ð½Ñ‹Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ:\n" << endl;
 	double Fuel_consumption, The_price_of_gasoline;
 	float  Distance_to_the_cottage;
 	int The_price_of_the_trip,kopeiki;
-	cout << "Ðàññòîÿíèå äî äà÷è (êì.)\n";
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð´Ð¾ Ð´Ð°Ñ‡Ð¸ (ÐºÐ¼.)\n";
 	cin >> Distance_to_the_cottage;
-	cout << "Ðàñõîä áåíçèíà ëèòðîâ íà 100 êì. ïðîáåãà\n";
+	cout << "Ð Ð°ÑÑ…Ð¾Ð´ Ð±ÐµÐ½Ð·Ð¸Ð½Ð° Ð»Ð¸Ñ‚Ñ€Ð¾Ð² Ð½Ð° 100 ÐºÐ¼. Ð¿Ñ€Ð¾Ð±ÐµÐ³Ð°\n";
 	cin >> Fuel_consumption;
-	cout << "Öåíà ëèòðà áåíçèíà (ãðí.)\n";
+	cout << "Ð¦ÐµÐ½Ð° Ð»Ð¸Ñ‚Ñ€Ð° Ð±ÐµÐ½Ð·Ð¸Ð½Ð° (Ð³Ñ€Ð½.)\n";
 	cin >> The_price_of_gasoline;
 	The_price_of_the_trip = ((Distance_to_the_cottage / 100 * Fuel_consumption) * 2) * The_price_of_gasoline;
 	kopeiki = ((((Distance_to_the_cottage / 100 * Fuel_consumption) * 2) * The_price_of_gasoline) - The_price_of_the_trip)*100;
-	cout << "Ïîåçäêà íà äà÷ó è îáðàòíî îáîéä¸òñÿ â: " << The_price_of_the_trip << " ãðí. " << kopeiki << " êîïååê" << endl;
+	cout << "ÐŸÐ¾ÐµÐ·Ð´ÐºÐ° Ð½Ð° Ð´Ð°Ñ‡Ñƒ Ð¸ Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾ Ð¾Ð±Ð¾Ð¹Ð´Ñ‘Ñ‚ÑÑ Ð²: " << The_price_of_the_trip << " Ð³Ñ€Ð½. " << kopeiki << " ÐºÐ¾Ð¿ÐµÐµÐº" << endl;
 #endif
 
 
